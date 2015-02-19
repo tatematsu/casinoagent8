@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@import url("../simplicity/style.css");
+
+/*
+	Theme Name: Simplicity child 3columns
+	Template: simplicity
+*/
+
+/* Simplicity子テーマ用のスタイルを書く */
+
+
+#header, #header-in, #navi-in, #body-in, #footer-in {
+    margin: 0 auto;
+    width: 1310px;
+}
+
+#main{
+  float:left;
+}
+
+#leftbar{
+  width:210px;
+  float:left;
+  margin-left:10px;
+  margin-right:20px;
+}
+
+#leftbar ul, #leftbar ol {
+    list-style: none outside none;
+    padding-left: 1em;
+}
+
+#leftbar h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#header .alignleft {
+    max-width: 975px;
+}
+
+.snsb li {
+  padding-right: 0;
+}
+
+@media screen and (max-width:1150px){
+  #sidebar{
+    clear:none;
+    float:right;
+    width:300px;
+    padding:0;
+  }
+  
+  #mobile-menu{
+    display:none;
+  }
+  
+  #header .alignright{display:block;}
+  
+  #header-in, #navi-in, #body-in, #footer, #footer-in{
+    width:1310px;
+  }
+  
+  #site-title a{
+    margin-right:0;
+  }
+
+  #footer-widget{
+    display:block;
+  }
+  
+  #footer-widget .footer-left, 
+  #footer-widget .footer-center, 
+  #footer-widget .footer-right{
+    clear:none;
+    width:33%;
+  }
+  
+  #sidebar-scroll{
+    display:block;
+  }
+  /************************************
+  ** モバイルメニュー
+  ************************************/
+  #mobile-menu{
+    display:none;
+  }
+  
+  /************************************
+  ** ヘッダー関係
+  ************************************/
+  #header .menu{
+    display:block;
+  }
+  
+  #header .alignright{
+    display:block;
+  }
+  
+  /************************************
+  ** メインメニュー
+  ************************************/
+  #navi ul{
+    display:block;
+  }
+
+  #navi ul li{
+    float:left;
+    border:1px;
+    border:solid 1px #ccc
+    display:block;
+  }
+
+  #navi ul li a:hover{
+    text-decoration:none;
+    background-color:#ddd;
+  }
+
+  #navi ul li a {
+    font-size: medium;
+    padding: 0.3em 0.7em;
+    color: #111;
+  }
+
+  #navi ul.sub-menu,
+  #navi ul.children{
+    
+  }
+  
+}
