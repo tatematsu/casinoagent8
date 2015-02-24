@@ -2,6 +2,9 @@
 <html <?php language_attributes(); ?>>
 <head>
 <?php
+
+$tmpl_path = get_template_directory_uri();
+
 //////////////////////////////////
 //ウェブマスターツール用のID表示
 //////////////////////////////////
@@ -65,9 +68,16 @@ if ( get_webmaster_tool_id() ): ?>
       <!-- 本体部分 -->
       <div id="body">
         <div id="body-in">
-
+        <?php
+        if( is_front_page() ){
+          ?>
+          <div id="top_main_img">
+          <img src="<?php print $tmpl_path; ?>/images/top/top_main_img.jpg">
+          </div>
+        <?php
+        }
+        ?>
           <?php get_template_part('before-main'); //メインカラーの手前に挿入するテンプレート（3カラム作成カスタマイズ時などに） ?>
-
           <!-- main -->
           <div id="main">
 

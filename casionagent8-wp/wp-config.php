@@ -21,13 +21,16 @@
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define('DB_NAME', 'reeegma46276com24020_');
+//define('DB_NAME', 'reeegma46276com24020_');
+define('DB_NAME', 'casinoagent8');
 
 /** MySQL データベースのユーザー名 */
-define('DB_USER', 'casinoagent8');
+//define('DB_USER', 'casinoagent8');
+define('DB_USER', 'root');
 
 /** MySQL データベースのパスワード */
-define('DB_PASSWORD', 'casino3150');
+//define('DB_PASSWORD', 'casino3150');
+define('DB_PASSWORD', 'root');
 
 /** MySQL のホスト名 */
 define('DB_HOST', 'localhost');
