@@ -1,20 +1,50 @@
 #top_main_img {
-  width:1200px;
-  margin:auto;
+  width:1070px;
+  margin:-20px auto 0 auto;
 }
 body {
-	background:url(../images/bg/bg_img.jpg);
-  background-position:center;
+	background:url(../images/bg/bgpattern.jpg);
+  	background-position:center;
+/*	background:blue;
+  background:url(../images/bg/casino-bg.jpg);*/
+  background-position:center 0;
+}
+h2#site-description {
+	color:#000;
+	width:auto;
+	font-size:11px;
+	margin:auto;
 }
 #container {
-  background:url(../images/bg/bg_img.jpg);
-  background-position:center;
-  background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+	box-shadow:0 0 3px #fff;
 }
-
-
-
+#wrapper {
+	width:1070px;
+	margin:auto;
+	height:100%;
+	min-height:100%;
+	background:#fff;
+}
+#navi {
+	color:red;
+}
+#header-in {
+	background:url(../images/bg/header_bg.jpg);
+}
 /* common */
+.promotion_banner {
+	margin-bottom:10px;
+}
+/*
+.promotion_label {
+	margin:0 0 0 0;
+	padding: 0 0 0 10px;
+	font-size:0.75em;
+	font-weight:bold;
+	border-left:10px solid gold;
+}*/
 .square {
 	background:silver;
 	margin:10px 0 0 -10px;
@@ -22,6 +52,53 @@ body {
 	width:100%;
 	min-height:240px;
 	box-shadow:1px 1px 3px #000;
+}
+#recommend ul,
+#news ul {
+	margin:10px 0;
+	padding:0;
+	list-style: none;
+}
+#recommend ul li a {
+	display: block;
+	text-decoration: none;
+	color:#000;
+	line-height:150%;
+	float:left;
+	width:153px;
+	padding:10px;
+	min-height:240px;
+	height:auto;
+	border: 1px solid #fff;
+	font-size:0.8em;
+
+
+background: rgb(212,228,239); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q0ZTRlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4NmFlY2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(212,228,239,1)), color-stop(100%,rgba(134,174,204,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(212,228,239,1) 0%,rgba(134,174,204,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(212,228,239,1) 0%,rgba(134,174,204,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(212,228,239,1) 0%,rgba(134,174,204,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(212,228,239,1) 0%,rgba(134,174,204,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc',GradientType=0 ); /* IE6-8 */
+
+
+
+}
+#news ul li a {
+	display: block;
+	text-decoration: none;
+	color:#000;
+	line-height:150%;
+	float:left;
+	width:153px;
+	padding:10px;
+	min-height:240px;
+	height:auto;
+	border: 1px solid #fff;
+	font-size:0.8em;
 }
 .s2_form_widget {
 	background: rgb(255,48,25); /* Old browsers */
@@ -78,9 +155,9 @@ body {
 	top:20px;
 	color:#fff;
 	font-size:12px;
-	background:#000;
+/*	background:#000;*/
 	width:100%;
-	min-height:250px;
+/*	min-height:250px;*/
 /*	background:#000;*/
 	margin:auto;
 	padding:0 0 20px 0;
@@ -104,9 +181,79 @@ body {
 	float:left;
 }
 .banner {
-	margin:20px 0;
+	margin:15px auto;
 	width:100%;
 	background:silver;
-	height:120px;
+	height:139px;
 	
+}
+.promotion_label {
+    position: relative;
+    color: #ffffff ;
+    background: #e1ba76;
+    font-size: 0.85em ;
+    line-height: 1;
+    margin: 0px -10px 20px -10px;
+    padding: 10px 5px 10px 20px;
+    box-shadow:1px 3px 7px 0px  #666666 ;
+    border-top:3px solid #610e00;
+}
+.promotion_label:after, .promotion_label:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    height: 0;
+    width: 0;
+    border: 5px solid transparent;
+    border-top: 5px solid #333;
+}
+.promotion_label:after {
+    left: 0;
+    border-right: 5px solid #333;
+}
+.promotion_label:before {
+    right: 0;
+    border-left: 5px solid #333;
+}
+
+.popular-entry {
+	border-bottom: 1px dotted silver;
+	font-size:0.8em;
+	min-height:82px;
+	padding-bottom:10px;
+	line-height: 125%;
+}
+.sample2 {
+	font-size:0.80em;
+    position: relative;
+    color: #ffffff ;
+    background: #000000;
+    font-size: 16pt ;
+    line-height: 1;
+    margin: 20px -10px 20px -10px;
+    padding: 10px 5px 10px 20px;
+    box-shadow:1px 3px 7px 0px  #666666 ;
+    border-top:3px solid #ff6347;
+}
+.sample2:after, sample2:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    height: 0;
+    width: 0;
+    border: 5px solid transparent;
+    border-top: 5px solid #333;
+}
+.sample2:after {
+    left: 0;
+    border-right: 5px solid #333;
+}
+.sample2:before {
+    right: 0;
+    border-left: 5px solid #333;
+}
+.recommend_games {
+	width:95%;
+	padding:10px;
+	border-bottom:1px dotted silver;
 }

@@ -1,6 +1,7 @@
        <div id ="bottom-box">
         <div id="bottom-left">
         <img src="<?php print get_template_directory_uri(); ?>/images/footer_logo.jpg" alt="週刊カジノジャンプ">
+        <!--
         <ul>
           <li>・・・・・・・・・・・・</li>
           <li>・・・・・・・・・・・・</li>
@@ -10,9 +11,11 @@
           <li>・・・・・・・・・・・・</li>
           <li>・・・・・・・・・・・・</li>
         </ul>
+        -->
         </div>
         <div id="bottom-right">
-        <div class="mv_frame">動画１</div><div class="mv_frame">動画２</div>
+        <!--
+        <div class="mv_frame">動画１</div><div class="mv_frame">動画２</div>-->
         </div>
       </div>
           </div><!-- /#main -->
@@ -21,9 +24,10 @@
         </div><!-- /#body-in -->
       </div><!-- /#body -->
     </div><!-- /#container -->
+    </div><!-- wrapper -->
 
     <!-- footer -->
-    <div id="footer">
+    <div id="footer" style="background:#000;">
       <div id="footer-in">
 
       <div id="footer-widget">
@@ -41,7 +45,7 @@
          </div>
       </div>
       <div class="clear"></div>
-        <div id="copyright" class="wrapper">
+        <div id="copyright" class="wrapper" style="background:#000;">
           <?php echo get_site_license(); //サイトのライセンス表記の取得 ?>
             
           <?php if ( is_local_test() && is_responsive_test_visible() ): //ローカルかつ設定で表示になっている場合のみ?>

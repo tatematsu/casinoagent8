@@ -5,9 +5,8 @@
   if (have_posts()) : // WordPress ループ
     while (have_posts()) : the_post(); // 繰り返し処理開始 ?>
       <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-        <div class="article">
-
-        <h1 class="entry-title"><?php echo get_the_title(); ?></h1>
+        <div class="article-">
+        <h3 class="promotion_label"><?php echo get_the_title(); ?></h3>
         <p class="post-meta">
           <?php get_template_part('datetime') //投稿日と更新日?>
 

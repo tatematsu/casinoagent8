@@ -12,3 +12,8 @@ register_sidebars(1,
   'before_title'  => '<h4 class="widgettitle">',
   'after_title'   => '</h4>',
 ));
+
+function new_excerpt_mblength($length) {
+     return 50;
+}	
+add_filter('excerpt_mblength', 'new_excerpt_mblength');

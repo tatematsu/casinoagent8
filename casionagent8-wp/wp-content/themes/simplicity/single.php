@@ -37,7 +37,7 @@
 
       <?php
         if ( is_comments_visible() ) {//コメント・コメント欄を表示するか
-          comments_template(); //コメントテンプレート
+          //comments_template(); //コメントテンプレート
         }
       ?>
       </section>

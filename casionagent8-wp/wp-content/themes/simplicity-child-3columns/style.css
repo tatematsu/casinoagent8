@@ -7,29 +7,30 @@
 */
 
 /* Simplicity子テーマ用のスタイルを書く */
-
-
+#wrapper {
+  box-shadow:0 0 3px #000;
+}
 #header, #header-in, #navi-in, #body-in, #footer-in {
-    margin: 0 auto;
-    width: 1310px;
-}
+  margin: 0 auto;
+  background: #fff;
 
-#main{
-  float:left;
 }
-
 #leftbar{
   width:210px;
   float:left;
-  margin-left:10px;
-  margin-right:20px;
   background: #fff;
   padding:10px;
 }
+#main{
+  width:586px;
+  float:left;
+}
+
 #sidebar {
-	width:275px;
+	width:230px;
 	background:#fff;
 	padding:10px;
+  float: left;
 }
 
 #leftbar ul, #leftbar ol {
@@ -91,7 +92,7 @@
   #header .alignright{display:block;}
   
   #header-in, #navi-in, #body-in, #footer, #footer-in{
-    width:1310px;
+    width:1070px;
   }
   
   #site-title a{

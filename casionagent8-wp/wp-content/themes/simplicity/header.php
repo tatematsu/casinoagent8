@@ -28,8 +28,8 @@ if ( get_webmaster_tool_id() ): ?>
 <?php wp_head(); ?>
 </head>
   <body <?php body_class(); ?>>
+   <div id="wrapper">
     <div id="container">
-
       <!-- header -->
       <div id="header" class="clearfix">
         <div id="header-in">
@@ -72,7 +72,32 @@ if ( get_webmaster_tool_id() ): ?>
         if( is_front_page() ){
           ?>
           <div id="top_main_img">
-          <img src="<?php print $tmpl_path; ?>/images/top/top_main_img.jpg">
+
+<object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1070" height="360">
+  <param name="movie" value="swf/casinoagent8-top.swf" />
+  <param name="quality" value="high" />
+  <param name="wmode" value="opaque" />
+  <param name="swfversion" value="11.0.0.0" />
+  <!-- このパラメータータグにより、Flash Player 6.0 または 6.5 以降を使用して、Flash Player の最新バージョンをダウンロードするようメッセージが表示されます。ユーザーにメッセージを表示させないようにする場合はパラメータータグを削除します。 -->
+  <param name="expressinstall" value="Scripts/expressInstall.swf" />
+  <!-- 次のオブジェクトタグは IE 以外のブラウザーで使用するためのものです。IE では IECC を使用して非表示にします。 -->
+  <!--[if !IE]>-->
+  <object type="application/x-shockwave-flash" data="swf/casinoagent8-top.swf" width="1070" height="360">
+    <!--<![endif]-->
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="11.0.0.0" />
+    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+    <!-- ブラウザーには、Flash Player 6.0 以前のバージョンを使用して次の代替コンテンツが表示されます。 -->
+    <div>
+      <h4>このページのコンテンツには、Adobe Flash Player の最新バージョンが必要です。</h4>
+      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Adobe Flash Player を取得" width="112" height="33" /></a></p>
+    </div>
+    <!--[if !IE]>-->
+  </object>
+  <!--<![endif]-->
+</object>
+         
           </div>
         <?php
         }
