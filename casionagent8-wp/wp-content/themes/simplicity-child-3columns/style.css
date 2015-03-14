@@ -47,24 +47,15 @@
 	text-shadow:0 0 2px #000;
 	font-size:14px;
 	/*	background:#dc143c;*/
-	background: rgb(252,234,187); /* Old browsers */
-	
+	background: rgb(252,234,187); /* Old browsers */	
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZWFiYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZjY2Q0ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2Y4YjUwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYmRmOTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZWFiYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZjY2Q0ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2Y4YjUwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYmRmOTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);	
 	background: -moz-linear-gradient(top,  rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%); /* FF3.6+ */
-	
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,234,187,1)), color-stop(50%,rgba(252,205,77,1)), color-stop(51%,rgba(248,181,0,1)), color-stop(100%,rgba(251,223,147,1))); /* Chrome,Safari4+ */
-	
 	background: -webkit-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Chrome10+,Safari5.1+ */
-	
 	background: -o-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Opera 11.10+ */
-	
 	background: -ms-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* IE10+ */
-	
 	background: linear-gradient(to bottom,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* W3C */
-	
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-8 */
 }
 
@@ -94,7 +85,6 @@
   #header-in, #navi-in, #body-in, #footer, #footer-in{
     width:1070px;
   }
-  
   #site-title a{
     margin-right:0;
   }
@@ -162,3 +152,145 @@
   }
   
 }
+@media screen and (max-width:768px){ /* iPad用スタイル */
+	body {
+		background:none;
+    width:768px;
+	}
+  #leftbar {
+      display:none;
+  }
+  #main {
+    width:586px;
+    float:left;
+  }
+  #bottom-box {
+    float:left;
+  }
+  #sidebar {
+    width: 181.5px;
+    float: left;
+   }
+  #pc_slides {
+  }
+  #mobile-menu{
+    display:none;
+  }
+  #header .alignright{display:block;}
+  
+  #wrapper,#header-in, #navi-in, #body-in, #footer, #footer-in{
+    width:100%;
+  }
+  #header-in {
+	background:url(../images/bg/header_bg.jpg);
+  background-size: contain;
+  }
+  #pc_slides {
+    display:none;
+  }
+  #mobile_slides {
+    display: block;
+  }
+  #navi ul li {
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+    width:12.2%;
+    padding-right:2%;
+    margin:0;
+  }
+  #navi ul li a {
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    width:100%;
+    height:80px;
+    font-weight: lighter;
+    font-size: 15px !important;
+    border:1px solid #d1dcdf; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;
+    text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+    background-color: #f2f5f6; background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f5f6), to(#c8d7dc));
+    background-image: -webkit-linear-gradient(top, #f2f5f6, #c8d7dc);
+    background-image: -moz-linear-gradient(top, #f2f5f6, #c8d7dc);
+    background-image: -ms-linear-gradient(top, #f2f5f6, #c8d7dc);
+    background-image: -o-linear-gradient(top, #f2f5f6, #c8d7dc);
+    background-image: linear-gradient(to bottom, #f2f5f6, #c8d7dc);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2f5f6, endColorstr=#c8d7dc);
+  }
+
+}  
+
+
+  #top_main_img {
+  	width:100%;
+  }
+  #site-title a{
+    margin-right:0;
+  }
+  #recommend ul li a {
+      width:152.3px;
+  }
+
+  #footer-widget{
+    display:block;
+  }
+  
+  #footer-widget .footer-left, 
+  #footer-widget .footer-center, 
+  #footer-widget .footer-right{
+    clear:none;
+    width:33%;
+  }
+  
+  #sidebar-scroll{
+    display:block;
+  }
+  /************************************
+  ** モバイルメニュー
+  ************************************/
+  #mobile-menu{
+    display:none;
+  }
+  
+  /************************************
+  ** ヘッダー関係
+  ************************************/
+  #header .menu{
+    display:block;
+  }
+  
+  #header .alignright{
+    display:block;
+  }
+  
+  /************************************
+  ** メインメニュー
+  ************************************/
+  #navi ul{
+    display:block;
+  }
+
+  #navi ul li{
+    float:left;
+    border:1px;
+    border:solid 1px #ccc
+    display:block;
+  }
+
+  #navi ul li a:hover{
+    text-decoration:none;
+    background-color:#ddd;
+  }
+
+  #navi ul li a {
+    font-size: medium;
+    padding: 0.3em 0.7em;
+    color: #111;
+  }
+
+  #navi ul.sub-menu,
+  #navi ul.children{
+    
+  }
+  
+}
+

@@ -72,7 +72,7 @@ if ( get_webmaster_tool_id() ): ?>
         if( is_front_page() ){
           ?>
           <div id="top_main_img">
-
+			<div id="pc_slides">
 <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1070" height="360">
   <param name="movie" value="swf/casinoagent8-top.swf" />
   <param name="quality" value="high" />
@@ -98,6 +98,10 @@ if ( get_webmaster_tool_id() ): ?>
   <!--<![endif]-->
 </object>
          
+          </div>
+          <div id="mobile_slides">
+           <!-- スライド -->
+           <img src="<?php print $tmpl_path; ?>/images/slides/mobile_slide_01.jpg" width="100%">
           </div>
         <?php
         }

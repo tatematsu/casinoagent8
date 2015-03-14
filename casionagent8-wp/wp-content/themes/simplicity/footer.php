@@ -1,6 +1,8 @@
        <div id ="bottom-box">
+        <div id="special_content_bottom">
+        <a href="http://www.jj8lottery.com/?t_jj8_aff=agent8&amp;a_bid=93bdac25" target="_top"><img src="http://affiliate.jj8lottery.com/accounts/default1/banners/Gold rush.png" alt="Gold Rush" title="Gold Rush"   /></a><img style="border:0" src="http://affiliate.jj8lottery.com/scripts/imp.php?t_jj8_aff=agent8&amp;a_bid=93bdac25" width="1" height="1" alt="" />
+        </div>
         <div id="bottom-left">
-        <img src="<?php print get_template_directory_uri(); ?>/images/footer_logo.jpg" alt="週刊カジノジャンプ">
         <!--
         <ul>
           <li>・・・・・・・・・・・・</li>
@@ -17,8 +19,11 @@
         <!--
         <div class="mv_frame">動画１</div><div class="mv_frame">動画２</div>-->
         </div>
-      </div>
+        <img src="<?php print get_template_directory_uri(); ?>/images/footer_logo.jpg" width="100%" alt="週刊カジノジャンプ">
+      </div><!-- bottom-box -->
+
           </div><!-- /#main -->
+
         <?php get_sidebar(); ?>
 
         </div><!-- /#body-in -->

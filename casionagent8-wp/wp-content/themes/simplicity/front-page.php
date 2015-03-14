@@ -4,11 +4,49 @@ $tmpl_path = get_template_directory_uri();
 
 //インデクスリスト用 ?>
 <?php get_header(); ?>
+<div id="special_content">
+<a href="http://www.jj8lottery.com/?t_jj8_aff=agent8&amp;a_bid=e3eabe7e" target="_top"><img src="http://affiliate.jj8lottery.com/accounts/default1/banners/Silver streak-3.png" alt="" title=""   /></a><img style="border:0" src="http://affiliate.jj8lottery.com/scripts/imp.php?t_jj8_aff=agent8&amp;a_bid=e3eabe7e" width="1" height="1" alt="" />
+</div>
 <h3 class="promotion_label">週間カジノジャンプのイチ押しコンテンツ</h3>
 <div id="promotion">
-<a href="http://www.samuraiclick.com/aclk?bid=428&tid=72520&lid=31&aid=18667">
-<img src="<?php print $tmpl_path; ?>/images/williamhillsports-0225.jpg" class="promotion_banner">
-</a></div>
+<!-- banner upper -->
+<?php
+
+// バナーのローテーション
+$file = file_get_contents('./banner_code/upper_banner_code.csv');
+$lines = explode("\n", $file );
+foreach ($lines as $line) {
+    $records[] = explode(",",$line);
+} 
+//print_r( $records );
+
+//テキストファイルの行数を数えて、
+$banner_count = count ( $records ); 
+
+//1~MAX番号で乱数取得
+$banner_row = rand(1,$banner_count) - 1;
+if ( !$banner_row || $banner_row == " " || $banner_row == "" || $banner_row == 0 ){
+	$banner_row = 1;
+}
+
+//printf("[%s]/", $banner_row );
+//printf("%s", $records[$banner_row][3] );
+
+//echo $banner_row;
+printf ("<a href=%s>", $records[$banner_row][1] );
+print "<img src=".$tmpl_path;
+print "/images/";
+printf("%s", $records[$banner_row][2] );
+print " class=promotion_banner>";
+
+?>
+</a>
+<!-- banner upper -->
+
+</div>
+<h3 class="promotion_label">オススメランキング</h3>
+<div id="ranking">おすすめ１位〜４位</div>
+
 <h3 class="promotion_label">おすすめのコンテンツはこちら</h3>
 <div id="recommend">
 <ul>

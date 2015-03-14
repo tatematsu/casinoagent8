@@ -1,5 +1,5 @@
 <!-- sidebar -->
-<aside>
+
 <div id="sidebar">
   <?php get_template_part('ad-sidebar');//サイドバートップ広告の呼び出し ?>
 
@@ -17,4 +17,4 @@
   </div>
   <?php endif; ?>
 
-</div></aside><!-- /#sidebar -->
+</div><!-- /#sidebar -->
