@@ -13,7 +13,9 @@ $tmpl_path = get_template_directory_uri();
 <?php
 
 // バナーのローテーション
-$file = file_get_contents('./banner_code/upper_banner_code.csv');
+$file = file_get_contents('./banner_code/upper_banner_code.csv'); //server
+//$file = file_get_contents('../banner_code/upper_banner_code.csv'); //local
+
 $lines = explode("\n", $file );
 foreach ($lines as $line) {
     $records[] = explode(",",$line);
@@ -44,9 +46,10 @@ print " class=promotion_banner>";
 <!-- banner upper -->
 
 </div>
+<!--
 <h3 class="promotion_label">オススメランキング</h3>
 <div id="ranking">おすすめ１位〜４位</div>
-
+-->
 <h3 class="promotion_label">おすすめのコンテンツはこちら</h3>
 <div id="recommend">
 <ul>
@@ -80,7 +83,13 @@ wp_reset_postdata();
 </ul>
 <div class="clearfix"></div>	
 </div>
-<div class="banner"><img src="<?php print $tmpl_path; ?>/images/32red-0225-banner.jpg"></div>
+&nbsp;
+<!--
+<div class="banner">
+<img src="<?php print $tmpl_path; ?>/images/32red-0225-banner.jpg">
+</div>
+-->
+
 <h3 class="promotion_label">新着コンテンツはこちら</h3>
 <div id="news">
 <ul>

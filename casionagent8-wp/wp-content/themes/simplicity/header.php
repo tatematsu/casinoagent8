@@ -28,6 +28,17 @@ if ( get_webmaster_tool_id() ): ?>
 <?php wp_head(); ?>
 </head>
   <body <?php body_class(); ?>>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60767956-1', 'auto');
+  ga('require', 'displayfeatures');  
+  ga('send', 'pageview');
+
+</script>
    <div id="wrapper">
     <div id="container">
       <!-- header -->
@@ -101,7 +112,7 @@ if ( get_webmaster_tool_id() ): ?>
           </div>
           <div id="mobile_slides">
            <!-- スライド -->
-           <img src="<?php print $tmpl_path; ?>/images/slides/mobile_slide_01.jpg" width="100%">
+           <?php if ( function_exists( 'easingslider' ) ) { easingslider( 199 ); } ?>
           </div>
         <?php
         }

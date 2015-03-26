@@ -1,6 +1,13 @@
 <!-- sidebar -->
 <aside>
 <div id="sidebar">
+<h4 class="widgettitle" style="font-size:0.8em;text-align:center;">【マストプレイ】オンカジ</h4>
+<div id="ultra_push"  style="width:160px;margin:auto;">
+<a href="http://success-max.info"><img src="<?php print get_template_directory_uri(); ?>/images/smartlive_girl_pic.jpg"></a>
+<a href="http://www.jj8lottery.com/?t_jj8_aff=agent8"><img src="<?php print get_template_directory_uri(); ?>/images/jj8_girl_pic.jpg"></a>
+<a href="http://wlmontecarloaffiliates.adsrv.eacdn.com/C.ashx?btag=a_16432b_13177c_&affid=12450&siteid=16432&adid=13177&c="><img src="<?php print get_template_directory_uri(); ?>/images/montecalro_girl_pic.jpg"></a>
+<a href="http://wlmontecarloaffiliates.adsrv.eacdn.com/C.ashx?btag=a_16432b_3873c_&affid=12450&siteid=16432&adid=3873&c="><img src="<?php print get_template_directory_uri(); ?>/images/imperial_girl_pic.jpg"></a>
+</div>
 <div style="width:160px;margin:auto;">
 <h4 class="widgettitle" style="font-size:0.8em;text-align:center;">カジノジャンプオススメ</h4>
 <?php
