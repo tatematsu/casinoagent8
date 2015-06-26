@@ -256,3 +256,8 @@ h2#site-description {
 	text-align: center;
 	padding: 10px 0;
 }
+
+/* iwallet form */
+#iwallet_form {
+	font-size:14px;
+}

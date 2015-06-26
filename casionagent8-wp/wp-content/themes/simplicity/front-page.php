@@ -5,8 +5,7 @@ $tmpl_path = get_template_directory_uri();
 //インデクスリスト用 ?>
 <?php get_header(); ?>
 <div id="special_content">
-<a href="http://www.jj8lottery.com/?t_jj8_aff=agent8&amp;a_bid=e3eabe7e" target="_top"><img src="http://affiliate.jj8lottery.com/accounts/default1/banners/Silver streak-3.png" alt="" title=""   /></a><img style="border:0" src="http://affiliate.jj8lottery.com/scripts/imp.php?t_jj8_aff=agent8&amp;a_bid=e3eabe7e" width="1" height="1" alt="" />
-</div>
+	<a href="http://casinoking8881.com/affiliate/link.php?id=N0000002&adwares=A0000002"><img src="http://casinoking8881.com/affiliate/file/image/201505/ef182b86475fb67f7293677263e3f273.jpg" border="0"></a></div>
 <h3 class="promotion_label">週間カジノジャンプのイチ押しコンテンツ</h3>
 <div id="promotion">
 <!-- banner upper -->

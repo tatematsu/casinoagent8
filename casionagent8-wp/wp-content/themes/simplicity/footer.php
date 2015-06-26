@@ -1,7 +1,6 @@
        <div id ="bottom-box">
         <div id="special_content_bottom">
-        <a href="http://www.jj8lottery.com/?t_jj8_aff=agent8&amp;a_bid=93bdac25" target="_top"><img src="http://affiliate.jj8lottery.com/accounts/default1/banners/Gold rush.png" alt="Gold Rush" title="Gold Rush"   /></a><img style="border:0" src="http://affiliate.jj8lottery.com/scripts/imp.php?t_jj8_aff=agent8&amp;a_bid=93bdac25" width="1" height="1" alt="" />
-        </div>
+			<a href="http://casinoking8881.com/affiliate/link.php?id=N0000002&adwares=A0000001"><img src="http://casinoking8881.com/affiliate/file/image/201505/abe6bc8151d966b195d217cc761abe9a.jpg" border="0"></a>        </div>
         <div id="bottom-left">
         <!--
         <ul>
